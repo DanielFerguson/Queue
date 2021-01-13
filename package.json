@@ -1,0 +1,27 @@
+{
+  "private": true,
+  "name": "Queue",
+  "description": "My application description",
+  "version": "1.0.0",
+  "author": "Daniel Ferguson <thedanielfergusonkid@gmail.com>",
+  "main": "app/background.js",
+  "scripts": {
+    "dev": "nuxtron NODE_ENV=production",
+    "build": "nuxtron build",
+    "build:mac": "nuxtron build --mac --x64"
+  },
+  "dependencies": {
+    "@fortawesome/free-brands-svg-icons": "^5.15.1",
+    "@fortawesome/free-solid-svg-icons": "^5.15.1",
+    "electron-serve": "^1.0.0",
+    "electron-store": "^6.0.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/fontawesome": "^1.1.2",
+    "@nuxtjs/tailwindcss": "^3.4.2",
+    "electron": "^10.1.5",
+    "electron-builder": "^22.9.1",
+    "nuxt": "^2.14.7",
+    "nuxtron": "^0.3.1"
+  }
+}

@@ -1,0 +1,12 @@
+appId: com.danielferguson.queue
+productName: Queue
+copyright: Copyright © 2021 Daniel Ferguson
+directories:
+  output: dist
+  buildResources: resources
+files:
+  - from: .
+    filter:
+      - package.json
+      - app
+publish: null
